@@ -18,6 +18,7 @@ const config: Config = {
       },
       colors: {
         customGreen: "#004d31",
+        defaultGreen: "#00a03f",
         customPink: "#ffebe1",
       },
       borderWidth: {

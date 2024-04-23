@@ -1,13 +1,13 @@
-import Footer from "./components/layouts/footer/footer";
-import Header from "./components/layouts/header/header";
-import PopularProduct from "./components/ui/popular-products";
-import Article from "./components/ui/article";
-import BannerSlider from "./components/ui/banner-slider";
-import FeaturedCategory from "./components/ui/featured-category";
-import MultipleItems from "./components/ui/mt";
-import CategoryCard from "./components/common/category-card";
-import DefaultButton from "./components/common/default-button";
-import CustomRangeInput from "./components/common/custom-range-input";
+import Footer from "../components/layouts/footer/footer";
+import Header from "../components/layouts/header/header";
+import PopularProduct from "../components/ui/popular-products";
+import Article from "../components/ui/article";
+import BannerSlider from "../components/ui/banner-slider";
+import FeaturedCategory from "../components/ui/featured-category";
+import MultipleItems from "../components/ui/mt";
+import CategoryCard from "../components/common/category-card";
+import DefaultButton from "../components/common/default-button";
+import CustomRangeInput from "../components/common/custom-range-input";
 
 export default function Home() {
   return (

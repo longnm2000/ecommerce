@@ -28,29 +28,41 @@ const FeaturedCategory: React.FC = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-6 flex-wrap">
         <h1>Featured Category</h1>
         <DefaultButton content="View Detail" />
       </div>
 
       <Slider ref={sliderRef} {...settings}>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
-        <div>
-          <CategoryCard />
+        <div className="flex justify-center">
+          <div className="flex justify-center w-4/5">
+            <CategoryCard />
+          </div>
         </div>
       </Slider>
       <input

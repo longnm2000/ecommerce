@@ -57,8 +57,8 @@ const BannerSlider: React.FC = () => {
                 width={"100%"}
               />
               <div
-                className=" absolute top-1/2 left-10 w-1/2"
-                style={{ transform: "translate(0, -50%);" }}
+                className=" absolute top-1/2 left-10 w-1/2 hidden md:block"
+                style={{ transform: "translate(0, -50%)" }}
               >
                 <h1 className=" font-bold text-3xl">
                   Upgrade Your Wardrobe

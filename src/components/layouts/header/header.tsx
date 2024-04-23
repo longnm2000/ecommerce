@@ -51,7 +51,11 @@ const Header: React.FC = () => {
           <div className=" flex items-center gap-8">
             <p className="font-bold text-2xl">Lenny.</p>
             <div className="bg-[#f5f8fa] flex items-center py-1 relative w-full rounded-md pr-4">
-              <Dropdown menu={{ items: categoryItems }} placement="bottomLeft">
+              <Dropdown
+                menu={{ items: categoryItems }}
+                placement="bottomLeft"
+                trigger={["click"]}
+              >
                 <Button type="text">
                   <span className=" font-semibold">
                     All Categories <DownOutlined />
@@ -77,7 +81,11 @@ const Header: React.FC = () => {
         <Drawer title="Menu" onClose={onClose} open={open}>
           <Search placeholder="Search on Lenny..." enterButton />
           <div className="mt-4">
-            <Dropdown menu={{ items: categoryItems }} placement="bottomLeft">
+            <Dropdown
+              menu={{ items: categoryItems }}
+              placement="bottomLeft"
+              trigger={["click"]}
+            >
               <Button type="text">
                 <span className=" font-semibold">
                   All Categories <DownOutlined />

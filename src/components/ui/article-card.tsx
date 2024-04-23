@@ -1,15 +1,20 @@
 import { Button, Image } from "antd";
 import Link from "next/link";
 
-const ArticleCard: React.FC<ArticleProps> = ({ createAt, title, content }) => {
+const ArticleCard: React.FC<ArticleProps> = ({
+  image,
+  createAt,
+  title,
+  content,
+}) => {
   return (
     <Link href={"#"}>
       <div className="w-full" style={{ padding: 0 }}>
-        <div className="aspect-square ">
+        <div className="aspect-video overflow-hidden rounded-md">
           <Image
             alt="product-image"
-            src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
-            className="object-cover w-full rounded-md"
+            src={image}
+            className="object-cover w-full "
             preview={false}
           />
         </div>
